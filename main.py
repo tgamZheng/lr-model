@@ -3,8 +3,8 @@ from sklearn.linear_model import LinearRegression
 
 def train():
     # Sample data: a simple sequence from 1 to 10
-    X = np.array([[i] for i in range(1, 11)])
-    y = np.array([i * 2 for i in range(1, 11)])
+    X = np.array([[i] for i in range(1, 13)])
+    y = np.array([i * 2 for i in range(1, 13)])
 
     # Initialize the linear regression model
     model = LinearRegression()
